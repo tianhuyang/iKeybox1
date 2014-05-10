@@ -7,16 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Account.h"
+#import "Password.h"
 
 @class DetailViewController;
 
 #import <CoreData/CoreData.h>
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate,UIActionSheetDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) Account *account;
 
+- (Password *) newPassword:(NSArray *)array;
+- (BOOL) changePassword;
+- (void) updateSelecteRow;
 @end

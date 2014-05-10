@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070C1B3A15882CA000759291 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B3915882C9F00759291 /* Default.png */; };
+		070C1B3C15882CA400759291 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B3B15882CA400759291 /* Default@2x.png */; };
+		070C1B3E15882CB900759291 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B3D15882CB900759291 /* Default-Landscape@2x~ipad.png */; };
+		070C1B4015882CBB00759291 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B3F15882CBB00759291 /* Default-Landscape~ipad.png */; };
+		070C1B4215882CC000759291 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B4115882CC000759291 /* Default-Portrait~ipad.png */; };
+		070C1B4415882CC300759291 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 070C1B4315882CC300759291 /* Default-Portrait@2x~ipad.png */; };
+		0714816815749A4D00275F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816715749A4D00275F8B /* UIKit.framework */; };
+		0714816A15749A4D00275F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816915749A4D00275F8B /* Foundation.framework */; };
+		0714816C15749A4D00275F8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816B15749A4D00275F8B /* CoreGraphics.framework */; };
+		0714816E15749A4D00275F8B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816D15749A4D00275F8B /* CoreData.framework */; };
+		0714817415749A4D00275F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0714817215749A4D00275F8B /* InfoPlist.strings */; };
+		0714817615749A4D00275F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714817515749A4D00275F8B /* main.m */; };
+		0714817A15749A4D00275F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714817915749A4D00275F8B /* AppDelegate.m */; };
+		0714817D15749A4D00275F8B /* keybox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0714817B15749A4D00275F8B /* keybox.xcdatamodeld */; };
+		0714818015749A4D00275F8B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714817F15749A4D00275F8B /* MasterViewController.m */; };
+		0714818315749A4D00275F8B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714818215749A4D00275F8B /* DetailViewController.m */; };
+		0714818615749A4D00275F8B /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0714818415749A4D00275F8B /* MasterViewController_iPhone.xib */; };
+		0714818C15749A4D00275F8B /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0714818A15749A4D00275F8B /* DetailViewController_iPhone.xib */; };
+		0714818F15749A4D00275F8B /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0714818D15749A4D00275F8B /* DetailViewController_iPad.xib */; };
+		0714819715749A4D00275F8B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714819615749A4D00275F8B /* SenTestingKit.framework */; };
+		0714819815749A4D00275F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816715749A4D00275F8B /* UIKit.framework */; };
+		0714819915749A4D00275F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816915749A4D00275F8B /* Foundation.framework */; };
+		0714819A15749A4D00275F8B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714816D15749A4D00275F8B /* CoreData.framework */; };
+		071481A215749A4D00275F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071481A015749A4D00275F8B /* InfoPlist.strings */; };
+		071481A515749A4D00275F8B /* keyboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071481A415749A4D00275F8B /* keyboxTests.m */; };
+		071481BC15749BBC00275F8B /* Account.mm in Sources */ = {isa = PBXBuildFile; fileRef = 071481B315749BBC00275F8B /* Account.mm */; };
+		071481BF15749BBC00275F8B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071481B715749BBC00275F8B /* MainViewController.m */; };
+		071481C015749BBC00275F8B /* Password.mm in Sources */ = {isa = PBXBuildFile; fileRef = 071481B915749BBC00275F8B /* Password.mm */; };
+		071481C115749BBC00275F8B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071481BB15749BBC00275F8B /* RegisterViewController.m */; };
+		072F8981158733A100656D0A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 072F8983158733A100656D0A /* Localizable.strings */; };
+		073C304C15789ABF00CBE74C /* md5.mm in Sources */ = {isa = PBXBuildFile; fileRef = 073C304A15789ABF00CBE74C /* md5.mm */; };
+		0792965F158414BC00C1E6B2 /* app@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0792965D158414BC00C1E6B2 /* app@2x~iPad.png */; };
+		07929660158414BC00C1E6B2 /* app~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0792965E158414BC00C1E6B2 /* app~iPad.png */; };
+		0792B2131587E43600F29A4D /* bkgrd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0792B2121587E43600F29A4D /* bkgrd.jpg */; };
+		0793C4871585B1CC00259F7F /* AidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0793C4851585B1CC00259F7F /* AidViewController.m */; };
+		0793C4881585B1CC00259F7F /* AidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0793C4861585B1CC00259F7F /* AidViewController.xib */; };
+		079FAF1E1586FEA100BE1119 /* RegisterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF201586FEA100BE1119 /* RegisterViewController_iPhone.xib */; };
+		079FAF23158701FB00BE1119 /* RegisterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF25158701FB00BE1119 /* RegisterViewController_iPad.xib */; };
+		079FAF291587053C00BE1119 /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF2B1587053C00BE1119 /* MainViewController_iPad.xib */; };
+		079FAF2D158705F700BE1119 /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF2F158705F700BE1119 /* MainViewController_iPhone.xib */; };
+		079FAF311587070A00BE1119 /* VerifyViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF331587070A00BE1119 /* VerifyViewController_iPad.xib */; };
+		079FAF351587071500BE1119 /* VerifyViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079FAF371587071500BE1119 /* VerifyViewController_iPhone.xib */; };
+		07A69D4415796990004BB5FB /* hexstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A69D4315796990004BB5FB /* hexstr.cpp */; };
+		07A75EF41579958600AFE660 /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A75EF21579958600AFE660 /* VerifyViewController.m */; };
+		07A80DE7157B19E90037D818 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A80DE5157B19E90037D818 /* MessageViewController.m */; };
+		07A80DE8157B19E90037D818 /* MessageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A80DE6157B19E90037D818 /* MessageViewController_iPhone.xib */; };
+		07A80DEB157B1FDC0037D818 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A80DEA157B1FDC0037D818 /* Session.m */; };
+		07A8BC07157DE3BB00A9E160 /* UIScroll+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A8BC06157DE3BB00A9E160 /* UIScroll+FirstResponder.m */; };
+		07AD5D77157F3B46003223B8 /* MessageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AD5D76157F3B46003223B8 /* MessageViewController_iPad.xib */; };
+		07AD5D7A157F3D6C003223B8 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07AD5D79157F3D6C003223B8 /* MasterViewController_iPad.xib */; };
+		07BAC67D157D7AE200C25EF0 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BAC67C157D7AE200C25EF0 /* Application.m */; };
+		07C04CCF157F074D00BCC0BC /* Rijndael.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07C04CCE157F074D00BCC0BC /* Rijndael.mm */; };
+		07C04CE2157F0C0F00BCC0BC /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C04CDC157F0C0F00BCC0BC /* app.png */; };
+		07C04CE3157F0C0F00BCC0BC /* app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C04CDD157F0C0F00BCC0BC /* app@2x.png */; };
+		07C04CE4157F0C0F00BCC0BC /* cellleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C04CDE157F0C0F00BCC0BC /* cellleft.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0714819B15749A4D00275F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0714815A15749A4D00275F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0714816215749A4D00275F8B;
+			remoteInfo = keybox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070C1B3915882C9F00759291 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		070C1B3B15882CA400759291 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		070C1B3D15882CB900759291 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		070C1B3F15882CBB00759291 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		070C1B4115882CC000759291 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		070C1B4315882CC300759291 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		0714816315749A4D00275F8B /* iKeybox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKeybox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0714816715749A4D00275F8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0714816915749A4D00275F8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0714816B15749A4D00275F8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0714816D15749A4D00275F8B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0714817315749A4D00275F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0714817515749A4D00275F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = keybox/main.m; sourceTree = "<group>"; };
+		0714817715749A4D00275F8B /* iKeybox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iKeybox-Prefix.pch"; sourceTree = "<group>"; };
+		0714817815749A4D00275F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = keybox/AppDelegate.h; sourceTree = "<group>"; };
+		0714817915749A4D00275F8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = keybox/AppDelegate.m; sourceTree = "<group>"; };
+		0714817C15749A4D00275F8B /* keybox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keybox.xcdatamodel; sourceTree = "<group>"; };
+		0714817E15749A4D00275F8B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0714817F15749A4D00275F8B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0714818115749A4D00275F8B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0714818215749A4D00275F8B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0714818515749A4D00275F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		0714818B15749A4D00275F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		0714818E15749A4D00275F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		0714819515749A4D00275F8B /* iKeyboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKeyboxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0714819615749A4D00275F8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0714819F15749A4D00275F8B /* iKeyboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iKeyboxTests-Info.plist"; sourceTree = "<group>"; };
+		071481A115749A4D00275F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		071481A315749A4D00275F8B /* keyboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyboxTests.h; sourceTree = "<group>"; };
+		071481A415749A4D00275F8B /* keyboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyboxTests.m; sourceTree = "<group>"; };
+		071481B215749BBC00275F8B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = keybox/Account.h; sourceTree = "<group>"; };
+		071481B315749BBC00275F8B /* Account.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Account.mm; path = keybox/Account.mm; sourceTree = "<group>"; };
+		071481B615749BBC00275F8B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		071481B715749BBC00275F8B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		071481B815749BBC00275F8B /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Password.h; path = keybox/Password.h; sourceTree = "<group>"; };
+		071481B915749BBC00275F8B /* Password.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Password.mm; path = keybox/Password.mm; sourceTree = "<group>"; };
+		071481BA15749BBC00275F8B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		071481BB15749BBC00275F8B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		072F8982158733A100656D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		072F8984158733A700656D0A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		073C304A15789ABF00CBE74C /* md5.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = md5.mm; path = keybox/md5.mm; sourceTree = "<group>"; };
+		073C304B15789ABF00CBE74C /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = keybox/md5.h; sourceTree = "<group>"; };
+		0792965D158414BC00C1E6B2 /* app@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app@2x~iPad.png"; sourceTree = "<group>"; };
+		0792965E158414BC00C1E6B2 /* app~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app~iPad.png"; sourceTree = "<group>"; };
+		0792B2121587E43600F29A4D /* bkgrd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkgrd.jpg; sourceTree = "<group>"; };
+		0792B2141587EFF700F29A4D /* iKeybox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iKeybox.entitlements; sourceTree = SOURCE_ROOT; };
+		0793C4841585B1CC00259F7F /* AidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AidViewController.h; path = ../AidViewController.h; sourceTree = "<group>"; };
+		0793C4851585B1CC00259F7F /* AidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AidViewController.m; path = ../AidViewController.m; sourceTree = "<group>"; };
+		0793C4861585B1CC00259F7F /* AidViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AidViewController.xib; sourceTree = "<group>"; };
+		079FAF1F1586FEA100BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RegisterViewController_iPhone.xib; sourceTree = "<group>"; };
+		079FAF221586FEBB00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/RegisterViewController_iPhone.xib"; sourceTree = "<group>"; };
+		079FAF24158701FB00BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RegisterViewController_iPad.xib; sourceTree = "<group>"; };
+		079FAF261587020800BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/RegisterViewController_iPad.xib"; sourceTree = "<group>"; };
+		079FAF271587033A00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/DetailViewController_iPhone.xib"; sourceTree = "<group>"; };
+		079FAF281587048C00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/DetailViewController_iPad.xib"; sourceTree = "<group>"; };
+		079FAF2A1587053C00BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPad.xib; sourceTree = "<group>"; };
+		079FAF2C1587054200BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainViewController_iPad.xib"; sourceTree = "<group>"; };
+		079FAF2E158705F700BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		079FAF30158705FD00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainViewController_iPhone.xib"; sourceTree = "<group>"; };
+		079FAF321587070A00BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VerifyViewController_iPad.xib; sourceTree = "<group>"; };
+		079FAF341587070F00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/VerifyViewController_iPad.xib"; sourceTree = "<group>"; };
+		079FAF361587071500BE1119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VerifyViewController_iPhone.xib; sourceTree = "<group>"; };
+		079FAF381587072000BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/VerifyViewController_iPhone.xib"; sourceTree = "<group>"; };
+		079FAF591587108100BE1119 /* iKeybox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iKeybox-Info.plist"; sourceTree = "<group>"; };
+		079FAF5A1587146B00BE1119 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		07A69D4315796990004BB5FB /* hexstr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hexstr.cpp; path = keybox/hexstr.cpp; sourceTree = "<group>"; };
+		07A69D46157969C3004BB5FB /* hexstr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hexstr.h; path = keybox/hexstr.h; sourceTree = "<group>"; };
+		07A75EF11579958600AFE660 /* VerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		07A75EF21579958600AFE660 /* VerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
+		07A80DE4157B19E90037D818 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		07A80DE5157B19E90037D818 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		07A80DE6157B19E90037D818 /* MessageViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageViewController_iPhone.xib; path = keybox/MessageViewController_iPhone.xib; sourceTree = "<group>"; };
+		07A80DE9157B1FDC0037D818 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = keybox/Session.h; sourceTree = "<group>"; };
+		07A80DEA157B1FDC0037D818 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = keybox/Session.m; sourceTree = "<group>"; };
+		07A80DED157B2DA40037D818 /* SessionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionDelegate.h; path = keybox/SessionDelegate.h; sourceTree = "<group>"; };
+		07A80DF2157B4DEE0037D818 /* TouchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchDelegate.h; path = keybox/TouchDelegate.h; sourceTree = "<group>"; };
+		07A8BC05157DE3BB00A9E160 /* UIScrollView+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+FirstResponder.h"; path = "keybox/UIScrollView+FirstResponder.h"; sourceTree = "<group>"; };
+		07A8BC06157DE3BB00A9E160 /* UIScroll+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScroll+FirstResponder.m"; path = "keybox/UIScroll+FirstResponder.m"; sourceTree = "<group>"; };
+		07AD5D76157F3B46003223B8 /* MessageViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController_iPad.xib; sourceTree = "<group>"; };
+		07AD5D79157F3D6C003223B8 /* MasterViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		07BAC67B157D7AE200C25EF0 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Application.h; path = keybox/Application.h; sourceTree = "<group>"; };
+		07BAC67C157D7AE200C25EF0 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Application.m; path = keybox/Application.m; sourceTree = "<group>"; };
+		07C04CCD157F074D00BCC0BC /* Rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rijndael.h; path = keybox/Rijndael.h; sourceTree = "<group>"; };
+		07C04CCE157F074D00BCC0BC /* Rijndael.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Rijndael.mm; path = keybox/Rijndael.mm; sourceTree = "<group>"; };
+		07C04CDC157F0C0F00BCC0BC /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
+		07C04CDD157F0C0F00BCC0BC /* app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app@2x.png"; sourceTree = "<group>"; };
+		07C04CDE157F0C0F00BCC0BC /* cellleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellleft.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0714816015749A4D00275F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714816815749A4D00275F8B /* UIKit.framework in Frameworks */,
+				0714816A15749A4D00275F8B /* Foundation.framework in Frameworks */,
+				0714816C15749A4D00275F8B /* CoreGraphics.framework in Frameworks */,
+				0714816E15749A4D00275F8B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0714819115749A4D00275F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714819715749A4D00275F8B /* SenTestingKit.framework in Frameworks */,
+				0714819815749A4D00275F8B /* UIKit.framework in Frameworks */,
+				0714819915749A4D00275F8B /* Foundation.framework in Frameworks */,
+				0714819A15749A4D00275F8B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0714815815749A4D00275F8B = {
+			isa = PBXGroup;
+			children = (
+				07318CDC157C876200EF07CA /* Images */,
+				07A80DEE157B300F0037D818 /* Main */,
+				07A80DEC157B2D310037D818 /* Session */,
+				071481C415749BD300275F8B /* GUI */,
+				071481C315749BC900275F8B /* Data */,
+				0714816F15749A4D00275F8B /* iKeybox */,
+				0714819D15749A4D00275F8B /* keylockTests */,
+				0714816615749A4D00275F8B /* Frameworks */,
+				0714816415749A4D00275F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0714816415749A4D00275F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0714816315749A4D00275F8B /* iKeybox.app */,
+				0714819515749A4D00275F8B /* iKeyboxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0714816615749A4D00275F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0714816715749A4D00275F8B /* UIKit.framework */,
+				0714816915749A4D00275F8B /* Foundation.framework */,
+				0714816B15749A4D00275F8B /* CoreGraphics.framework */,
+				0714816D15749A4D00275F8B /* CoreData.framework */,
+				0714819615749A4D00275F8B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0714816F15749A4D00275F8B /* iKeybox */ = {
+			isa = PBXGroup;
+			children = (
+				0792B2141587EFF700F29A4D /* iKeybox.entitlements */,
+				0793C4841585B1CC00259F7F /* AidViewController.h */,
+				0793C4851585B1CC00259F7F /* AidViewController.m */,
+				07A80DE4157B19E90037D818 /* MessageViewController.h */,
+				07A80DE5157B19E90037D818 /* MessageViewController.m */,
+				07A75EF11579958600AFE660 /* VerifyViewController.h */,
+				07A75EF21579958600AFE660 /* VerifyViewController.m */,
+				071481B615749BBC00275F8B /* MainViewController.h */,
+				071481B715749BBC00275F8B /* MainViewController.m */,
+				071481BA15749BBC00275F8B /* RegisterViewController.h */,
+				071481BB15749BBC00275F8B /* RegisterViewController.m */,
+				0714817E15749A4D00275F8B /* MasterViewController.h */,
+				0714817F15749A4D00275F8B /* MasterViewController.m */,
+				0714818115749A4D00275F8B /* DetailViewController.h */,
+				0714818215749A4D00275F8B /* DetailViewController.m */,
+				0714817015749A4D00275F8B /* Supporting Files */,
+			);
+			name = iKeybox;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		0714817015749A4D00275F8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079FAF591587108100BE1119 /* iKeybox-Info.plist */,
+				0714817215749A4D00275F8B /* InfoPlist.strings */,
+				0714817715749A4D00275F8B /* iKeybox-Prefix.pch */,
+				072F8983158733A100656D0A /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0714819D15749A4D00275F8B /* keylockTests */ = {
+			isa = PBXGroup;
+			children = (
+				071481A315749A4D00275F8B /* keyboxTests.h */,
+				071481A415749A4D00275F8B /* keyboxTests.m */,
+				0714819E15749A4D00275F8B /* Supporting Files */,
+			);
+			name = keylockTests;
+			path = keyboxTests;
+			sourceTree = "<group>";
+		};
+		0714819E15749A4D00275F8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0714819F15749A4D00275F8B /* iKeyboxTests-Info.plist */,
+				071481A015749A4D00275F8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		071481C315749BC900275F8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				07C04CCD157F074D00BCC0BC /* Rijndael.h */,
+				07C04CCE157F074D00BCC0BC /* Rijndael.mm */,
+				073C304A15789ABF00CBE74C /* md5.mm */,
+				073C304B15789ABF00CBE74C /* md5.h */,
+				071481B215749BBC00275F8B /* Account.h */,
+				071481B315749BBC00275F8B /* Account.mm */,
+				071481B815749BBC00275F8B /* Password.h */,
+				071481B915749BBC00275F8B /* Password.mm */,
+				0714817B15749A4D00275F8B /* keybox.xcdatamodeld */,
+				07A69D4315796990004BB5FB /* hexstr.cpp */,
+				07A69D46157969C3004BB5FB /* hexstr.h */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		071481C415749BD300275F8B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				079FAF201586FEA100BE1119 /* RegisterViewController_iPhone.xib */,
+				079FAF25158701FB00BE1119 /* RegisterViewController_iPad.xib */,
+				0714818415749A4D00275F8B /* MasterViewController_iPhone.xib */,
+				07AD5D79157F3D6C003223B8 /* MasterViewController_iPad.xib */,
+				0714818A15749A4D00275F8B /* DetailViewController_iPhone.xib */,
+				0714818D15749A4D00275F8B /* DetailViewController_iPad.xib */,
+				079FAF2B1587053C00BE1119 /* MainViewController_iPad.xib */,
+				079FAF2F158705F700BE1119 /* MainViewController_iPhone.xib */,
+				079FAF331587070A00BE1119 /* VerifyViewController_iPad.xib */,
+				079FAF371587071500BE1119 /* VerifyViewController_iPhone.xib */,
+				07A80DE6157B19E90037D818 /* MessageViewController_iPhone.xib */,
+				07AD5D76157F3B46003223B8 /* MessageViewController_iPad.xib */,
+				0793C4861585B1CC00259F7F /* AidViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		07318CDC157C876200EF07CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0792B2121587E43600F29A4D /* bkgrd.jpg */,
+				070C1B4315882CC300759291 /* Default-Portrait@2x~ipad.png */,
+				070C1B4115882CC000759291 /* Default-Portrait~ipad.png */,
+				070C1B3F15882CBB00759291 /* Default-Landscape~ipad.png */,
+				070C1B3D15882CB900759291 /* Default-Landscape@2x~ipad.png */,
+				070C1B3B15882CA400759291 /* Default@2x.png */,
+				070C1B3915882C9F00759291 /* Default.png */,
+				0792965E158414BC00C1E6B2 /* app~iPad.png */,
+				07C04CDC157F0C0F00BCC0BC /* app.png */,
+				07C04CDD157F0C0F00BCC0BC /* app@2x.png */,
+				0792965D158414BC00C1E6B2 /* app@2x~iPad.png */,
+				07C04CDE157F0C0F00BCC0BC /* cellleft.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		07A80DEC157B2D310037D818 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				07A80DE9157B1FDC0037D818 /* Session.h */,
+				07A80DEA157B1FDC0037D818 /* Session.m */,
+				07A80DED157B2DA40037D818 /* SessionDelegate.h */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		07A80DEE157B300F0037D818 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0714817515749A4D00275F8B /* main.m */,
+				0714817815749A4D00275F8B /* AppDelegate.h */,
+				0714817915749A4D00275F8B /* AppDelegate.m */,
+				07A80DF2157B4DEE0037D818 /* TouchDelegate.h */,
+				07BAC67B157D7AE200C25EF0 /* Application.h */,
+				07BAC67C157D7AE200C25EF0 /* Application.m */,
+				07A8BC05157DE3BB00A9E160 /* UIScrollView+FirstResponder.h */,
+				07A8BC06157DE3BB00A9E160 /* UIScroll+FirstResponder.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0714816215749A4D00275F8B /* iKeybox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071481A815749A4D00275F8B /* Build configuration list for PBXNativeTarget "iKeybox" */;
+			buildPhases = (
+				0714815F15749A4D00275F8B /* Sources */,
+				0714816015749A4D00275F8B /* Frameworks */,
+				0714816115749A4D00275F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iKeybox;
+			productName = keybox;
+			productReference = 0714816315749A4D00275F8B /* iKeybox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0714819415749A4D00275F8B /* iKeyboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071481AB15749A4D00275F8B /* Build configuration list for PBXNativeTarget "iKeyboxTests" */;
+			buildPhases = (
+				0714819015749A4D00275F8B /* Sources */,
+				0714819115749A4D00275F8B /* Frameworks */,
+				0714819215749A4D00275F8B /* Resources */,
+				0714819315749A4D00275F8B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0714819C15749A4D00275F8B /* PBXTargetDependency */,
+			);
+			name = iKeyboxTests;
+			productName = keyboxTests;
+			productReference = 0714819515749A4D00275F8B /* iKeyboxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0714815A15749A4D00275F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0714815D15749A4D00275F8B /* Build configuration list for PBXProject "iKeybox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 0714815815749A4D00275F8B;
+			productRefGroup = 0714816415749A4D00275F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0714816215749A4D00275F8B /* iKeybox */,
+				0714819415749A4D00275F8B /* iKeyboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0714816115749A4D00275F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714817415749A4D00275F8B /* InfoPlist.strings in Resources */,
+				0714818615749A4D00275F8B /* MasterViewController_iPhone.xib in Resources */,
+				0714818C15749A4D00275F8B /* DetailViewController_iPhone.xib in Resources */,
+				0714818F15749A4D00275F8B /* DetailViewController_iPad.xib in Resources */,
+				079FAF291587053C00BE1119 /* MainViewController_iPad.xib in Resources */,
+				079FAF2D158705F700BE1119 /* MainViewController_iPhone.xib in Resources */,
+				079FAF1E1586FEA100BE1119 /* RegisterViewController_iPhone.xib in Resources */,
+				079FAF351587071500BE1119 /* VerifyViewController_iPhone.xib in Resources */,
+				07A80DE8157B19E90037D818 /* MessageViewController_iPhone.xib in Resources */,
+				07C04CE2157F0C0F00BCC0BC /* app.png in Resources */,
+				07C04CE3157F0C0F00BCC0BC /* app@2x.png in Resources */,
+				07C04CE4157F0C0F00BCC0BC /* cellleft.png in Resources */,
+				07AD5D77157F3B46003223B8 /* MessageViewController_iPad.xib in Resources */,
+				07AD5D7A157F3D6C003223B8 /* MasterViewController_iPad.xib in Resources */,
+				079FAF23158701FB00BE1119 /* RegisterViewController_iPad.xib in Resources */,
+				079FAF311587070A00BE1119 /* VerifyViewController_iPad.xib in Resources */,
+				0792965F158414BC00C1E6B2 /* app@2x~iPad.png in Resources */,
+				07929660158414BC00C1E6B2 /* app~iPad.png in Resources */,
+				0793C4881585B1CC00259F7F /* AidViewController.xib in Resources */,
+				072F8981158733A100656D0A /* Localizable.strings in Resources */,
+				0792B2131587E43600F29A4D /* bkgrd.jpg in Resources */,
+				070C1B3A15882CA000759291 /* Default.png in Resources */,
+				070C1B3C15882CA400759291 /* Default@2x.png in Resources */,
+				070C1B3E15882CB900759291 /* Default-Landscape@2x~ipad.png in Resources */,
+				070C1B4015882CBB00759291 /* Default-Landscape~ipad.png in Resources */,
+				070C1B4215882CC000759291 /* Default-Portrait~ipad.png in Resources */,
+				070C1B4415882CC300759291 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0714819215749A4D00275F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071481A215749A4D00275F8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0714819315749A4D00275F8B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0714815F15749A4D00275F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0714817615749A4D00275F8B /* main.m in Sources */,
+				0714817A15749A4D00275F8B /* AppDelegate.m in Sources */,
+				0714817D15749A4D00275F8B /* keybox.xcdatamodeld in Sources */,
+				0714818015749A4D00275F8B /* MasterViewController.m in Sources */,
+				0714818315749A4D00275F8B /* DetailViewController.m in Sources */,
+				071481BC15749BBC00275F8B /* Account.mm in Sources */,
+				071481BF15749BBC00275F8B /* MainViewController.m in Sources */,
+				071481C015749BBC00275F8B /* Password.mm in Sources */,
+				071481C115749BBC00275F8B /* RegisterViewController.m in Sources */,
+				073C304C15789ABF00CBE74C /* md5.mm in Sources */,
+				07A69D4415796990004BB5FB /* hexstr.cpp in Sources */,
+				07A75EF41579958600AFE660 /* VerifyViewController.m in Sources */,
+				07A80DE7157B19E90037D818 /* MessageViewController.m in Sources */,
+				07A80DEB157B1FDC0037D818 /* Session.m in Sources */,
+				07BAC67D157D7AE200C25EF0 /* Application.m in Sources */,
+				07A8BC07157DE3BB00A9E160 /* UIScroll+FirstResponder.m in Sources */,
+				07C04CCF157F074D00BCC0BC /* Rijndael.mm in Sources */,
+				0793C4871585B1CC00259F7F /* AidViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0714819015749A4D00275F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071481A515749A4D00275F8B /* keyboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0714819C15749A4D00275F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0714816215749A4D00275F8B /* iKeybox */;
+			targetProxy = 0714819B15749A4D00275F8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0714817215749A4D00275F8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714817315749A4D00275F8B /* en */,
+				079FAF5A1587146B00BE1119 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0714818415749A4D00275F8B /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714818515749A4D00275F8B /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		0714818A15749A4D00275F8B /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714818B15749A4D00275F8B /* en */,
+				079FAF271587033A00BE1119 /* zh-Hans */,
+			);
+			name = DetailViewController_iPhone.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		0714818D15749A4D00275F8B /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0714818E15749A4D00275F8B /* en */,
+				079FAF281587048C00BE1119 /* zh-Hans */,
+			);
+			name = DetailViewController_iPad.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		071481A015749A4D00275F8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071481A115749A4D00275F8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		072F8983158733A100656D0A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072F8982158733A100656D0A /* en */,
+				072F8984158733A700656D0A /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		079FAF201586FEA100BE1119 /* RegisterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF1F1586FEA100BE1119 /* en */,
+				079FAF221586FEBB00BE1119 /* zh-Hans */,
+			);
+			name = RegisterViewController_iPhone.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		079FAF25158701FB00BE1119 /* RegisterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF24158701FB00BE1119 /* en */,
+				079FAF261587020800BE1119 /* zh-Hans */,
+			);
+			name = RegisterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		079FAF2B1587053C00BE1119 /* MainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF2A1587053C00BE1119 /* en */,
+				079FAF2C1587054200BE1119 /* zh-Hans */,
+			);
+			name = MainViewController_iPad.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		079FAF2F158705F700BE1119 /* MainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF2E158705F700BE1119 /* en */,
+				079FAF30158705FD00BE1119 /* zh-Hans */,
+			);
+			name = MainViewController_iPhone.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+		079FAF331587070A00BE1119 /* VerifyViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF321587070A00BE1119 /* en */,
+				079FAF341587070F00BE1119 /* zh-Hans */,
+			);
+			name = VerifyViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		079FAF371587071500BE1119 /* VerifyViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079FAF361587071500BE1119 /* en */,
+				079FAF381587072000BE1119 /* zh-Hans */,
+			);
+			name = VerifyViewController_iPhone.xib;
+			path = keybox;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071481A615749A4D00275F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhu Yang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianhu Yang";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "B58F414D-5F81-44AE-B96B-682104EAA936";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B58F414D-5F81-44AE-B96B-682104EAA936";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071481A715749A4D00275F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianhu Yang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianhu Yang";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B58F414D-5F81-44AE-B96B-682104EAA936";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B58F414D-5F81-44AE-B96B-682104EAA936";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071481A915749A4D00275F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iKeybox.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keybox/iKeybox-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "keybox/iKeybox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = iKeybox;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		071481AA15749A4D00275F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iKeybox.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keybox/iKeybox-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "keybox/iKeybox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = iKeybox;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		071481AC15749A4D00275F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keybox.app/keybox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keybox/keybox-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "keyboxTests/iKeyboxTests-Info.plist";
+				PRODUCT_NAME = iKeyboxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		071481AD15749A4D00275F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keybox.app/keybox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keybox/keybox-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "keyboxTests/iKeyboxTests-Info.plist";
+				PRODUCT_NAME = iKeyboxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0714815D15749A4D00275F8B /* Build configuration list for PBXProject "iKeybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071481A615749A4D00275F8B /* Debug */,
+				071481A715749A4D00275F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071481A815749A4D00275F8B /* Build configuration list for PBXNativeTarget "iKeybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071481A915749A4D00275F8B /* Debug */,
+				071481AA15749A4D00275F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071481AB15749A4D00275F8B /* Build configuration list for PBXNativeTarget "iKeyboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071481AC15749A4D00275F8B /* Debug */,
+				071481AD15749A4D00275F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0714817B15749A4D00275F8B /* keybox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0714817C15749A4D00275F8B /* keybox.xcdatamodel */,
+			);
+			currentVersion = 0714817C15749A4D00275F8B /* keybox.xcdatamodel */;
+			name = keybox.xcdatamodeld;
+			path = keybox/keybox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0714815A15749A4D00275F8B /* Project object */;
+}

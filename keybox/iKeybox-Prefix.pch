@@ -3,7 +3,7 @@
 //
 
 #import <Availability.h>
-
+#import "AppDelegate.h"
 #ifndef __IPHONE_4_0
 #warning "This project uses features only available in iOS SDK 4.0 and later."
 #endif
@@ -12,4 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
 #endif
+
+extern AppDelegate *appDelegate;

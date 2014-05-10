@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  iKeybox
+
+  Created by Tianhu Yang on 6/12/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+"Verify incorrect" = "验证失败";
+"Signin incorrect" = "登陆失败";
+"Warning" ="温馨提示";
+"CreateWarning"="创建新帐号将删除现有帐号和所有相关密码，请选择是否继续？";
+"YES" = "是";
+"NO" = "否";
+"Sign in" = "登陆";
+"Create an account" = "创建新账户";
+"Change your account" = "修改现有帐户";
+"Congratulations" = "恭喜";
+"Confirm" = "确认";
+"AccountCreated" = "帐户信息创建成功！请牢记用户名和密码，并不要告诉任何人！";
+"AccountChanged" = "帐户信息修改成功！请牢记用户名和密码，并不要告诉任何人！";
+"keysnomatch" = "两次输入密码不匹配";
+"Valid" = "有效";
+"List" = "密码";
+"deleteconfirm" = "您确定删除吗?";
+"Cancel" = "取消";
+"OK" = "确定";
+"selectitem"="请选择一个条目";
+"touchdisplay"="点击密码框显示密码";
+"No selection" = "未选择条目";
+"Created sucessfully"= "创建成功";
+"Create failed" = "创建失败";
+"Saved sucessfully" = "保存成功";
+"Save failed" = "保存失败";
+"Create" = "创建";
+"Edit" = "编辑";
+"View" = "查看";
+"Notempty" = "\"显示名称\"项不能为空";
+
+"over2chars" = "至少需要2个字符";
+"over8chars" = "至少需要8个字符";
+"needletters" = "需要包含字母";
+"needdigitals" = "需要包含数字";
+"needothers" = "需要包含其他字符";
+"Invalid key format" = "无效的密码格式";
+
+"sessionleft" = "会话将于";
+"sessionright" = "秒后过期 ...\n点击屏幕或者按任意键取消.";

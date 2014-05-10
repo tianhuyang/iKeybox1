@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  iKeybox
+
+  Created by Tianhu Yang on 6/12/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+"Verify incorrect" = "Verify incorrect";
+"Signin incorrect" = "Signin incorrect";
+"Warning" ="Warning";
+"CreateWarning"="Create a new account will delete the current account with associated passwords. Are you sure to proceed?";
+"YES" = "YES";
+"NO" = "NO";
+"Sign in" = "Sign in";
+"Create an account" = "Create an account";
+"Change your account" = "Change your account";
+"Congratulations" = "Congratulations";
+"Confirm" = "Confirm";
+"AccountCreated" = "The account information has been created successfully! Please memorize them and don't disclose it to anybody!";
+"AccountChanged" = "The account information has been changed successfully! Please memorize them and don't disclose it to anybody!";
+"keysnomatch" = "The two keys don't match";
+"Valid" = "Valid";
+"List" = "List";
+"deleteconfirm" = "Are you sure to delete?";
+"Cancel" = "Cancel";
+"OK" = "OK";
+"selectitem"="Please select an item";
+"touchdisplay"="Touch the password field to display";
+"No selection" = "No selection";
+"Created sucessfully"= "Created sucessfully";
+"Create failed" = "Create failed";
+"Saved sucessfully" = "Saved sucessfully";
+"Save failed" = "Save failed";
+"Create" = "Create";
+"Edit" = "Edit";
+"View" = "View";
+"Notempty" = "\"Display\" should't be empty";
+
+"over2chars" = "Should have at least 2 characters";
+"over8chars" = "Should have at least 8 characters";
+"needletters" = "Should include letters";
+"needdigitals" = "Should include digitals";
+"needothers" = "Should include other characters";
+"Invalid key format" = "Invalid key format";
+
+"sessionleft" = "Session will expire after";
+"sessionright" = "second(s) ...\nTouch the screen or press any key to cancel.";
