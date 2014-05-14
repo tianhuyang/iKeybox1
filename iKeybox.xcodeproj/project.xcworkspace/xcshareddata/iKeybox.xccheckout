@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>238DDE4F-F1A0-4881-A49F-4D547929F929</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iKeybox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADDC5B3E-896F-470F-865F-8E013FD84847</key>
+		<string>ssh://github.com/tianhuyang/iKexbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iKeybox.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADDC5B3E-896F-470F-865F-8E013FD84847</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tianhuyang/iKexbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADDC5B3E-896F-470F-865F-8E013FD84847</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADDC5B3E-896F-470F-865F-8E013FD84847</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iKexbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
